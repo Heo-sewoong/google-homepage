@@ -61,3 +61,55 @@ body{
   justify-content: center;
   align-items: center;
 }
+
+.main-logo{
+  display: flex;
+  justify-content: center;
+  margin-top: 258px;
+}
+
+.main-firm form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 26px;
+}
+
+.main-firm__input{
+  width: 100%;
+  max-width: 548px;
+  border: 1px solid #DFE1E5;
+  border-radius: 24px;
+  position: relative;
+  padding-left: 40px;
+  padding-right: 69px;
+}
+
+.main-firm__input input{
+  width: 100%;
+  height: 46px;
+  border: none;
+  outline: none;
+
+}
+
+.main-firm__input span{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9AA0A6;
+}
+
+.main-firm__input span.search{
+  left: 15px;
+
+}
+
+.main-firm__input span.mic{
+  right: 10px;
+}
+
+.main-firm__input span.keyboard {
+  right: 44px;
+}
